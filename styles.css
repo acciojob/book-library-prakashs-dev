@@ -1,1 +1,61 @@
 /*  your css code here. If applicable */
+body {
+    background-color: #f8f8f8;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 600px;
+    height: 253vh;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card>h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.book-library>h2 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 20px;
+}
+
+.book-library>img {
+    margin-left: 33%;
+
+}
+
+.book>b {
+    margin: 20px 30px 0px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.book>p {
+    margin: 0px 20px 0px 30px;
+    font-family: Arial;
+    color: #777777;
+    font-size: 15px;
+}
+
+.book>p:last-child {
+    width: 89%;
+    height: 28px;
+    background-color: #2ecc71;
+    color: white;
+    font-weight: 700;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 7px;
+}
