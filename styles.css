@@ -22,7 +22,7 @@ body {
     font-family: Arial;
 }
 
-.book-library>h2 {
+.card>h2 {
     background-color: #ffffff;
     width: 100%;
     height: 20px;
