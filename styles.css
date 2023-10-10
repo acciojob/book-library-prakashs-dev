@@ -22,13 +22,13 @@ body {
     font-family: Arial;
 }
 
-.card>h2 {
+.book>h2 {
     background-color: #ffffff;
     width: 100%;
     height: 20px;
 }
 
-.book>img {
+img {
     margin-left: 33%;
 }
 
